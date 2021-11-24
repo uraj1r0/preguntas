@@ -1,35 +1,38 @@
+@font-face {
+  font-family: "Maison Neue";
+  src: url("maison_neue.woff2") format("woff2");
+}
+
 :root {
   --main-background-color: #f6f7f9;
   --how-to-background-color: #f6f7f9;
-  --question-background-color: #ffc177;
+  --question-background-color: #fe9b05;
 }
 
 body {
   font-family: "Maison Neue";
+  font-size: 1rem;
   /*font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;*/
 }
 
-.pb-container {
-  width: 100%;
-  height: 100vh;
-  background-color: var(--main-background-color);
-  display: flex;
-}
-
-.container .logo-container {
+.logo-container {
   position: absolute;
   width: 100%;
   height: 50px;
 }
 
-.container .logo-container img {
+.logo-container img {
   height: 50px;
+}
+
+.row.pb-container {
+  padding: 50px;
 }
 
 /*******************************/
 /**** How to related styles ****/
 /*******************************/
-.pb-container .pb-how-to-container {
+/*.pb-container .pb-how-to-container {
   width: 50%;
   height: inherit;
   padding: 50px 0 0 100px;
@@ -41,12 +44,12 @@ body {
 
 .pb-how-to-container ul li {
   line-height: 2em;
-}
+}*/
 
 /*************************************/
 /*** Question form related styles ****/
 /*************************************/
-.pb-container .pb-question-container {
+/*.pb-container .pb-question-container {
   width: 50%;
   height: inherit;
 }
@@ -63,4 +66,15 @@ body {
 }
 .pb-question-form-container #paidEmailBody {
   height: 150px;
+}*/
+
+.pb-question-form-container form .submit-container {
+  display: flex;
+  justify-content: right;
+}
+
+.pb-question-form-container form .submit-container .btn-encrypt {
+  background: var(--question-background-color);
+  color: white;
+  margin-right: 20px;
 }
