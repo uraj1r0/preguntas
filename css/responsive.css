@@ -21,4 +21,11 @@
   .pb-container .pb-question-container {
     margin-top: 50px;
   }
+
+  .pb-container .pb-question-form-container {
+    display: flex;
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: none;
+  }
 }

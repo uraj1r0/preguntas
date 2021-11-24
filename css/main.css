@@ -11,66 +11,68 @@
 
 body {
   font-family: "Maison Neue";
-  font-size: 1rem;
+  font-size: .8rem;
   /*font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;*/
 }
 
 .logo-container {
   position: absolute;
   width: 100%;
-  height: 50px;
+  height: 100px;
 }
 
 .logo-container img {
-  height: 50px;
+  height: 100px;
 }
 
 .row.pb-container {
-  padding: 50px;
+  padding: 20px 35px;
 }
 
 /*******************************/
 /**** How to related styles ****/
 /*******************************/
-/*.pb-container .pb-how-to-container {
-  width: 50%;
-  height: inherit;
-  padding: 50px 0 0 100px;
+.pb-container .pb-how-to-container {
+  height: 80vh;
+  padding-top: 80px;
+  padding-right: 30px;
 }
 
 .pb-how-to-container .how-to-header {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .pb-how-to-container ul li {
   line-height: 2em;
-}*/
+}
 
 /*************************************/
 /*** Question form related styles ****/
 /*************************************/
-/*.pb-container .pb-question-container {
-  width: 50%;
-  height: inherit;
+.pb-container .pb-question-form-container {
 }
 
 .pb-container .pb-question-form-container {
   display: flex;
-  background-color: var(--question-background-color);
-  margin: 80px 50px 0 100px;
+  margin: 35px 0px 0 20px;
   border-radius: 10px;
+  box-shadow: 0px 4px 11px 2px #ffc773;
 }
 
 .pb-container .pb-question-form-container form {
-  padding: 50px;
+  padding: 20px 35px;
 }
 .pb-question-form-container #paidEmailBody {
-  height: 150px;
-}*/
+  height: 100px;
+}
 
 .pb-question-form-container form .submit-container {
+  margin-top: 15px;
   display: flex;
   justify-content: right;
+}
+.pb-question-form-container #user-pk-area textarea {
+  height: 100px;
 }
 
 .pb-question-form-container form .submit-container .btn-encrypt {
