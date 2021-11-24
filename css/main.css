@@ -16,6 +16,16 @@ body {
   display: flex;
 }
 
+.container .logo-container {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+}
+
+.container .logo-container img {
+  height: 50px;
+}
+
 /*******************************/
 /**** How to related styles ****/
 /*******************************/
