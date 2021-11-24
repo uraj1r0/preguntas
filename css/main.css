@@ -30,7 +30,7 @@ body {
 }
 
 .pb-how-to-container ul li {
-  line-height: 2.5em;
+  line-height: 2em;
 }
 
 /*************************************/
@@ -50,4 +50,7 @@ body {
 
 .pb-container .pb-question-form-container form {
   padding: 50px;
+}
+.pb-question-form-container #paidEmailBody {
+  height: 200px;
 }
