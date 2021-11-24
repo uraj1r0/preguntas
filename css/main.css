@@ -1,0 +1,53 @@
+:root {
+  --main-background-color: #f6f7f9;
+  --how-to-background-color: #f6f7f9;
+  --question-background-color: #ffad4b;
+}
+
+body {
+  font-family: "Maison Neue";
+  /*font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;*/
+}
+
+.pb-container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-background-color);
+  display: flex;
+}
+
+/*******************************/
+/**** How to related styles ****/
+/*******************************/
+.pb-container .pb-how-to-container {
+  width: 50%;
+  height: inherit;
+  padding: 100px;
+}
+
+.pb-how-to-container .how-to-header {
+  margin-bottom: 40px;
+}
+
+.pb-how-to-container ul li {
+  line-height: 2.5em;
+}
+
+/*************************************/
+/*** Question form related styles ****/
+/*************************************/
+.pb-container .pb-question-container {
+  width: 50%;
+  height: inherit;
+}
+
+.pb-container .pb-question-form-container {
+  display: flex;
+  background-color: var(--question-background-color);
+  margin: 100px;
+  margin-top: 200px;
+}
+
+.pb-container .pb-question-form-container form {
+  padding: 50px;
+}
