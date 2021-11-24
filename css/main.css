@@ -1,7 +1,7 @@
 :root {
   --main-background-color: #f6f7f9;
   --how-to-background-color: #f6f7f9;
-  --question-background-color: #ffad4b;
+  --question-background-color: #ffc177;
 }
 
 body {
@@ -44,13 +44,13 @@ body {
 .pb-container .pb-question-form-container {
   display: flex;
   background-color: var(--question-background-color);
-  margin: 100px;
-  margin-top: 50px;
+  margin: 80px 50px 0 100px;
+  border-radius: 10px;
 }
 
 .pb-container .pb-question-form-container form {
   padding: 50px;
 }
 .pb-question-form-container #paidEmailBody {
-  height: 200px;
+  height: 150px;
 }
